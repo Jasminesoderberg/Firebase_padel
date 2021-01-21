@@ -1,0 +1,12 @@
+{
+  "name": "firebase_padel",
+  "displayName": "firebase_padel",
+  "expo": {
+    "name": "firebase_padel",
+    "slug": "firebase_padel",
+    "version": "1.0.0",
+    "assetBundlePatterns": [
+      "**/*"
+    ]
+  }
+}
