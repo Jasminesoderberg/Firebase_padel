@@ -3,7 +3,7 @@ import { StyleSheet, Text, View, Button } from 'react-native';
 
 const ProfileScreen = ({navigation}) => {
     return(
-    <View style={{flex: 1, alignItems: 'center', justifyContent: 'center'}}>
+    <View style={styles.container}>
         <Text>Profile Screen</Text>
 
         <Button 
@@ -25,5 +25,14 @@ const ProfileScreen = ({navigation}) => {
     </View>
     )
 }
+
+const styles = StyleSheet.create({
+    container: {
+        flex: 1,
+        backgroundColor: '#fff',
+        alignItems: 'center',
+        justifyContent: 'center',
+    },
+});
 
 export default ProfileScreen;

@@ -3,7 +3,7 @@ import { StyleSheet, Text, View, Button } from 'react-native';
 
 const HomeScreen = ({navigation}) => {
     return (
-    <View style={{flex: 1, alignItems: 'center', justifyContent: 'center'}}>
+    <View style={styles.container}>
         <Text>Home Screen</Text>
         <Button 
             title= 'Go to Profile Screen '
@@ -14,4 +14,12 @@ const HomeScreen = ({navigation}) => {
     )
 }
 
+const styles = StyleSheet.create({
+    container: {
+        flex: 1,
+        backgroundColor: '#fff',
+        alignItems: 'center',
+        justifyContent: 'center',
+    },
+});
 export default HomeScreen;
