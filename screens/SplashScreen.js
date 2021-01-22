@@ -16,18 +16,12 @@ const SplashScreen = ({navigation}) => {
     return (
     <View style={styles.container}>
         <View style={styles.header}>
-        <Animatable.View 
-            animation='bounceIn'
-            duration='1500'
-        >
         <Image 
-        source={require('./assets/logo.png')}
+    
+        source={require('../assets/logo.png')}
         style={styles.logo}
         resizeMode='stretch'
         />  
-
-        </Animatable.View>
-            
         </View>
         
         <Animatable.View 

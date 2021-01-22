@@ -14,7 +14,7 @@ const App = () => {
   return(
     <NavigationContainer >
 
-    <RootstackScreen/>
+    <RootStackScreen/>
 
     {/*<Stack.Navigator screenOptions={{
         headerStyle:{
