@@ -8,9 +8,11 @@ import {
     TouchableOpacity
 } from 'react-native';
 
-import LinearGradient from 'react-native-linear-gradient';
-import MaterialIcons from 'react-native-vector-icons/MaterialIcons'
+/*import LinearGradient from 'react-native-linear-gradient';*/
+import {LinearGradient} from 'expo-linear-gradient';
+import MaterialIcons from 'react-native-vector-icons/MaterialIcons';
 import * as Animatable from 'react-native-animatable';
+import SignInScreen from './SignInScreen';
 
 const SplashScreen = ({navigation}) => {
     return (
@@ -28,7 +30,7 @@ const SplashScreen = ({navigation}) => {
         style={styles.footer}
         animation='fadeInUpBig'
         >
-            <Text style={styles.title}>Some kind of text</Text> 
+            <Text style={styles.title}>Welcome to bla bla</Text> 
             <Text style={styles.text}>Sign up with account </Text> 
         <View style={styles.button}> 
             <TouchableOpacity onPress={()=> navigation.navigate('SignInScreen')}>
@@ -43,6 +45,8 @@ const SplashScreen = ({navigation}) => {
                         size={20}
                     />
                 </LinearGradient>
+            
+                
             </TouchableOpacity>
         </View>
         </Animatable.View>

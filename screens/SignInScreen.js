@@ -9,7 +9,8 @@ import {
     Platform
 } from 'react-native';
 
-import LinearGradient from 'react-native-linear-gradient';
+/*import LinearGradient from 'react-native-linear-gradient';*/
+import {LinearGradient} from 'expo-linear-gradient';
 import FontAwesome from 'react-native-vector-icons/FontAwesome'
 import Feather from 'react-native-vector-icons/Feather'
 import * as Animatable from 'react-native-animatable';
