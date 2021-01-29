@@ -98,7 +98,7 @@ const styles = StyleSheet.create({
         height: 40,
         justifyContent: 'center',
         alignItems: 'center',
-        borderRadius: 50,
+        borderRadius: 30,
         flexDirection: 'row'
     },
     textSign: {

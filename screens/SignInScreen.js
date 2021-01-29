@@ -17,6 +17,9 @@ import * as Animatable from 'react-native-animatable';
 
 const SignInScreen = ({navigation}) => {
 
+    const [email, setEmail] = useState();
+    const [password, setPassword] = useState();
+
     const [data, setData] = useState({
         email: '',
         password:'',

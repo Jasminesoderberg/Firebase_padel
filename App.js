@@ -4,15 +4,16 @@ import { StyleSheet, Text, View, Button } from 'react-native';
 import { NavigationContainer } from '@react-navigation/native';
 import { createStackNavigator } from '@react-navigation/stack';
 
-import MainHomeScreen from './screens/MainTabScreen'
+
 import RootStackScreen from './screens/RootStackScreen'
-import RootstackScreen from './screens/RootStackScreen';
+
 
 const Stack = createStackNavigator();
 
 const App = () => {
   return(
-    <NavigationContainer >
+    
+  <NavigationContainer >
 
     <RootStackScreen/>
 
